@@ -1,0 +1,17 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "solc": "^0.8.7-fixed"
+  },
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node-modules/ --base-path . -o . SimpleStorage.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
